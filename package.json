@@ -1,7 +1,7 @@
 {
     "name": "vscode-subword-navigation",
-    "version": "1.3.0",
-    "publisher": "ow",
+    "version": "1.3.1",
+    "publisher": "ivanstepanovftw",
     "displayName": "Subword Navigation",
     "description": "The missing code navigation feature.",
     "icon": "images/icon.png",
@@ -12,10 +12,10 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/ow--/vscode-subword-navigation.git"
+        "url": "https://github.com/ivanstepanovftw/vscode-subword-navigation.git"
     },
     "bugs": {
-        "url": "https://github.com/ow--/vscode-subword-navigation/issues"
+        "url": "https://github.com/ivanstepanovftw/vscode-subword-navigation/issues"
     },
     "engines": {
         "vscode": "^1.43.0"
