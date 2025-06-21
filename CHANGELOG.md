@@ -1,3 +1,7 @@
+### 1.3.1
+* Better handling of word boundaries
+* Better default keybindings
+
 ### 1.2.0
 * Added default keybindings in order to populate the new binding interface
 
