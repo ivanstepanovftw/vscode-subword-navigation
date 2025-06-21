@@ -1,9 +1,9 @@
 {
-    "name": "vscode-subword-navigation",
+    "name": "camelhumps",
     "version": "1.3.2",
     "publisher": "ivanstepanovftwgaynottaken",
-    "displayName": "Subword Navigation",
-    "description": "The missing code navigation feature.",
+    "displayName": "CamelHumps",
+    "description": "The missing subword caret navigation feature matching JetBrains behavior.",
     "icon": "images/icon.png",
     "galleryBanner": {
         "color": "#efedf9",
