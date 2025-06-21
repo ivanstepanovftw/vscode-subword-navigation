@@ -1,27 +1,33 @@
 import { Selection, TextDocument, TextEditor, TextEditorEdit, TextEditorRevealType, Position } from 'vscode';
 import { nextBoundaryLeft as left, nextBoundaryRight as right } from './boundaries';
 
-export function cursorSubwordLeft(editor: TextEditor) {
+export function cursorSubwordLeft(editor: TextEditor | undefined) {
+    if (!editor) return;
     cursorSubword(editor, left, move);
 }
 
-export function cursorSubwordRight(editor: TextEditor) {
+export function cursorSubwordRight(editor: TextEditor | undefined) {
+    if (!editor) return;
     cursorSubword(editor, right, move);
 }
 
-export function cursorSubwordLeftSelect(editor: TextEditor) {
+export function cursorSubwordLeftSelect(editor: TextEditor | undefined) {
+    if (!editor) return;
     cursorSubword(editor, left, select);
 }
 
-export function cursorSubwordRightSelect(editor: TextEditor) {
+export function cursorSubwordRightSelect(editor: TextEditor | undefined) {
+    if (!editor) return;
     cursorSubword(editor, right, select);
 }
 
-export function deleteSubwordLeft(editor: TextEditor) {
+export function deleteSubwordLeft(editor: TextEditor | undefined) {
+    if (!editor) return;
     deleteSubword(editor, left);
 }
 
-export function deleteSubwordRight(editor: TextEditor) {
+export function deleteSubwordRight(editor: TextEditor | undefined) {
+    if (!editor) return;
     deleteSubword(editor, right);
 }
 
